@@ -77,11 +77,38 @@
       font-size: 0.8rem;
       opacity: 0.6;
     }
+
+    /* NAVBAR ---------------------- */
+    .navbar {
+      display: flex;
+      gap: 1.5rem;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .navbar a {
+      color: #7dd3fc;
+      text-decoration: none;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+    .navbar a:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
   </style>
 </head>
 
 <body>
   <div class="wrapper">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="talks.html">Talks & Posters</a>
+      <a href="#">CV</a>
+    </nav>
 
     <header>
       <h1>Catriona Osborn Moar</h1>
