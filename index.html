@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catriona Osborn Moar</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0b1020;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    header {
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.25rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      opacity: 0.8;
+      margin-top: 0;
+    }
+    a {
+      color: #7dd3fc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .tagline {
+      margin: 1rem 0 2rem;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 0.25rem;
+    }
+    ul {
+      padding-left: 1.1rem;
+    }
+    li {
+      margin-bottom: 0.35rem;
+    }
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      list-style: none;
+      padding-left: 0;
+    }
+    .pill {
+      border-radius: 999px;
+      padding: 0.2rem 0.75rem;
+      border: 1px solid rgba(255,255,255,0.2);
+      font-size: 0.8rem;
+      opacity: 0.9;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header>
+      <h1>Catriona Osborn Moar</h1>
+      <h2>Doctoral Researcher</h2>
+      <p class="tagline">
+        I study how neural dynamics shape experience using complexity-based approaches.
+      </p>
+      <p>
+        <a href="mailto:C.Osborn-Moar@sussex.ac.uk">C.Osborn-Moar@sussex.ac.uk</a> ·
+        <a href="https://github.com/CatrionaOM" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="#" target="_blank" rel="noopener noreferrer">CV (PDF)</a>
+      </p>
+    </header>
+
+    <section>
+      <h3>About</h3>
+      <p>
+        I’m a PhD student at the Sussex Centre for Consciousness Science.
+        I take inspiration from non-neurocentric, relational approaches that view consciousness as a 
+        multi-scale process embedded in brain, body, and environment, even though my current empirical 
+        work focuses primarily on neural data.
+        My research explores how complexity measures behave and what they might capture across diverse 
+        conscious states in different organisms, using both empirical datasets and simulations.
+        A key part of my work is grounded in the stance that there is no “view from nowhere,” motivating 
+        an interest in multiverse-style analyses that reveal how different methodological choices produce 
+        different “realities” in our findings. I investigate how preprocessing decisions and analytic 
+        pipelines shape complexity-based results, particularly in psychedelic research, where these 
+        measures are widely used yet remain poorly understood.
+      </p>
+    </section>
+
+    <section>
+      <h3>Research Interests</h3>
+      <ul class="pill-list">
+        <li class="pill">Complexity science & neural dynamics</li>
+        <li class="pill">Altered states of consciousness</li>
+        <li class="pill">4E cognition & relational approaches to mind</li>
+        <li class="pill">Multiscale cognition</li>
+        <li class="pill">Diverse intelligences</li>
+        <li class="pill">Mental health & critical psychiatry</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Current Projects</h3>
+      <ul>
+        <li>Psilocybin deep-sampling study: analysing EEG and questionnaire data across altered states.</li>
+        <li>Simulation-based work on complexity metrics—especially Lempel–Ziv—to clarify what they capture.</li>
+        <li>Exploring neural dynamics of rodent torpor.</li>
+        <li>Comparing the behaviour of complexity measures across empirical datasets.</li>
+        <li>Multiverse analyses of preprocessing pipelines and analytic choices.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Selected Outputs</h3>
+      <ul>
+        <li>
+          <strong>Roseby, W.</strong> & <strong>Moar, C.O.</strong> (2024). 
+          <em>A Comparative Neurophenomenology of the Psychedelic State and Autism: Predictive Processing as a Unifying Lens.</em>
+          Philosophies, 4(4), 41. 
+          <a href="https://www.mdpi.com/2813-1851/4/4/41" target="_blank" rel="noopener noreferrer">Link</a>
+        </li>
+      </ul>
+      <p>
+        Additional papers are listed on the 
+        <a href="publications.html">Publications</a> page, and talks and presentations appear on the 
+        <a href="talks.html">Talks &amp; Posters</a> page.
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Catriona Osborn Moar
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
