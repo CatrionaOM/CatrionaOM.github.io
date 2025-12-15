@@ -96,6 +96,23 @@
       opacity: 1;
       text-decoration: underline;
     }
+
+    /* Header layout with profile photo */
+    .header-grid {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    
+    /* Profile photo */
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(255,255,255,0.25);
+    }
   </style>
 </head>
 
@@ -109,8 +126,9 @@
       <a href="talks.html">Talks & Posters</a>
       <a href="#">CV</a>
     </nav>
-
-    <header>
+  
+  <header class="header-grid">
+    <div>
       <h1>Catriona Osborn Moar</h1>
       <h2>Doctoral Researcher</h2>
       <p class="tagline">
@@ -121,7 +139,14 @@
         <a href="https://github.com/CatrionaOM" target="_blank" rel="noopener noreferrer">GitHub</a> ·
         <a href="#" target="_blank" rel="noopener noreferrer">CV (PDF)</a>
       </p>
-    </header>
+    </div>
+  
+    <img
+      src="media/me.JPG"
+      alt="Portrait of Catriona Osborn Moar"
+      class="profile-photo"
+    >
+  </header>
 
     <section>
       <h3>About</h3>
