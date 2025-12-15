@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Education</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0b1020;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 0.25rem;
+    }
+    a {
+      color: #7dd3fc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      gap: 1.5rem;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .navbar a {
+      color: #7dd3fc;
+      text-decoration: none;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+    .navbar a:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+
+    /* Clean, professional entries */
+    .entry {
+      padding: 1rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .entry:last-child {
+      border-bottom: none;
+    }
+    .entry-title {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 0.75rem;
+      align-items: baseline;
+    }
+    .degree {
+      font-weight: 700;
+    }
+    .inst {
+      opacity: 0.9;
+    }
+    .meta {
+      font-size: 0.9rem;
+      opacity: 0.75;
+    }
+    .subhead {
+      margin-top: 0.6rem;
+      font-weight: 650;
+      opacity: 0.95;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0.5rem 0 0;
+    }
+    li {
+      margin: 0.35rem 0;
+    }
+    .label {
+      opacity: 0.8;
+      margin-right: 0.35rem;
+    }
+    .back-link {
+      margin-top: 2rem;
+      display: inline-block;
+      opacity: 0.8;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="talks.html">Talks, Posters & Workshops</a>
+      <a href="education.html">Education</a>
+      <a href="#">CV</a>
+    </nav>
+
+    <h1>Education</h1>
+
+    <section>
+      <h3>PhD</h3>
+
+      <div class="entry">
+        <div class="entry-title">
+          <span class="degree">Sussex Neuroscience 4-Year PhD Programme</span>
+          <span class="inst">· University of Sussex</span>
+        </div>
+        <div class="meta">Sept 2023 – Sept 2027 · Brighton</div>
+
+        <ul>
+          <li><span class="label">Degree:</span>PhD</li>
+          <li><span class="label">Primary supervisor:</span>Adam Barrett</li>
+          <li><span class="label">Co-supervisors:</span>Dominique Makowski, Anil Seth</li>
+          <li><span class="label">Project (working title):</span>Complexity and Cognitive Flexibility in Altered States and Non-Human Bio-Collectives</li>
+        </ul>
+
+        <div class="subhead">Rotations</div>
+        <ul>
+          <li>
+            <span class="label">Rotation 1 (Supervisor):</span>Luc Berthouze (Complex Systems)
+            <br><span class="label">Project:</span>Exploring Patterns in Embryonic Movement (computational approach)
+            <br><span class="label">Skills:</span>Exploratory data analysis & visualisation, change point detection, power analysis, signal processing, wavelets, phase-plane analysis, time series classification
+            <br><span class="label">Outcome:</span>Report; continued collaboration with Alonso Lab developing a pipeline for <em>Drosophila melanogaster</em> movement data analysis
+          </li>
+
+          <li>
+            <span class="label">Rotation 2 (Supervisor):</span>Dominique Makowski (Reality Bending Lab)
+            <br><span class="label">Project:</span>Behavioural and Neural Correlates of Visual Illusions
+            <br><span class="label">Skills:</span>jsPsych, neuropsychological approaches, advanced statistical analysis of behavioural data, EEG preprocessing & analysis, GitHub
+            <br><span class="label">Outcome:</span>Report; continued collaboration; abstract accepted as a talk at ASSC27
+          </li>
+
+          <li>
+            <span class="label">Rotation 3 (Supervisors):</span>Adam Barrett & Anil Seth (SSCS)
+            <br><span class="label">Project:</span>Dynamics of the Dying Brain
+            <br><span class="label">Skills:</span>EEG preprocessing & analysis (Python / MNE-Python), GitHub, complexity science
+            <br><span class="label">Outcome:</span>Continued collaboration; invited talk at Models of Consciousness 5 / MPE3 on links to minimal phenomenal experience
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>MRes</h3>
+
+      <div class="entry">
+        <div class="entry-title">
+          <span class="degree">MRes Neuroscience (Distinction)</span>
+          <span class="inst">· University of Sussex</span>
+        </div>
+        <div class="meta">Sept 2022 – Sept 2023 · Brighton</div>
+
+        <ul>
+          <li><span class="label">Supervisor:</span>Claudio Alonso (Developmental Neurobiology)</li>
+          <li>
+            <span class="label">Research project:</span>
+            Investigated interplay of neural activity and gene expression in the developing fruit fly using thermogenetics and semi-quantitative PCR. Results indicated that increased pan-neuronal activity during a critical late embryogenesis period down-regulates the Hox gene <em>Ultrabithorax</em>.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>BSc</h3>
+
+      <div class="entry">
+        <div class="entry-title">
+          <span class="degree">BSc (Hons) Neuroscience (First Class)</span>
+          <span class="inst">· Queen Mary University of London</span>
+        </div>
+        <div class="meta">Completed 2021 · London</div>
+
+        <ul>
+          <li><span class="label">Supervisor:</span>Shafaq Sikandar (William Harvey Research Institute)</li>
+          <li>
+            <span class="label">Research project:</span>
+            Investigated the pronociceptive role of neutrophils in a mouse model of chronic pain using hyperalgesic priming and neutrophil depletion (monoclonal antibody). Results implicated neutrophils in prolonged ipsilateral and contralateral mechanical hypersensitivity.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <a class="back-link" href="index.html">← Back to Home</a>
+
+  </div>
+</body>
+</html>
